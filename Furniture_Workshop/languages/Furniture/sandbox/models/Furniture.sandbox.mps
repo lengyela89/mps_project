@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:4d9238a4-bf7d-48d7-81af-bec0feb9f8b0(Furniture.sandbox)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ae9a1c4b-ce62-435d-a665-c2703dc8f8cd" name="Furniture" version="0" />
     <use id="15238099-b76e-4759-80ab-f06ecf67f63c" name="HTML" version="0" />
