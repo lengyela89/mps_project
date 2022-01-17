@@ -8,6 +8,9 @@
   </languages>
   <imports />
   <registry>
+    <language id="c126621b-8cee-42a4-8eb8-ffdf4b0da36a" name="CodeReview">
+      <concept id="8276659856217546526" name="CodeReview.structure.CodeReview" flags="ng" index="3iioln" />
+    </language>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
       <concept id="2133624044437898907" name="jetbrains.mps.core.xml.structure.XmlDoctypeDeclaration" flags="ng" index="29q25o">
         <property id="2133624044437898910" name="doctypeName" index="29q25t" />
@@ -28,6 +31,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -167,7 +173,7 @@
     <property role="TrG5h" value="HELGA" />
     <property role="3oFjUR" value="@A111" />
     <node concept="3oFjUJ" id="6XaeoF$VwEY" role="3oFjUV">
-      <property role="3oFjUM" value="1" />
+      <property role="3oFjUM" value="10" />
       <ref role="3oFjUK" node="6AyY62L3WqY" resolve="Hammer" />
     </node>
     <node concept="3oFjUJ" id="6XaeoF$VwF0" role="3oFjUV">
@@ -209,7 +215,9 @@
     </node>
     <node concept="3oFjUG" id="7Nw3Jqzpvh9" role="3oFjUT">
       <property role="3oFjUH" value="ddddd" />
+      <node concept="3iioln" id="7Nw3Jqzpvhe" role="lGtFl" />
     </node>
+    <node concept="3oFjUG" id="7Nw3Jqzpvh$" role="3oFjUT" />
   </node>
   <node concept="3oFjUO" id="3vyAED1FZK2">
     <property role="TrG5h" value="HELGA" />
