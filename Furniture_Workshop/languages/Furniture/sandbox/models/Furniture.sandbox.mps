@@ -173,7 +173,7 @@
     <property role="TrG5h" value="HELGA" />
     <property role="3oFjUR" value="@A111" />
     <node concept="3oFjUJ" id="6XaeoF$VwEY" role="3oFjUV">
-      <property role="3oFjUM" value="10" />
+      <property role="3oFjUM" value="50" />
       <ref role="3oFjUK" node="6AyY62L3WqY" resolve="Hammer" />
     </node>
     <node concept="3oFjUJ" id="6XaeoF$VwF0" role="3oFjUV">
