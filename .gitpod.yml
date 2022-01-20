@@ -6,6 +6,9 @@ tasks:
 ports:
   - port: 8887
     onOpen: open-browser
+    visibility: public
+
+workspaceLocation: "/projector-home/"
 
 github:
   prebuilds:
