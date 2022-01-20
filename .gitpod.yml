@@ -1,14 +1,17 @@
 image: lengyela89/mps-projector:0.0.1
 
 tasks:
-  - command: sh /run.sh
+  - before: :
+    init: :
+    command: sh /run.sh
   
 ports:
   - port: 8887
     onOpen: open-browser
     visibility: public
 
-workspaceLocation: "/projector-home/"
+checkoutLocation: "/home/projector/MPSProjects/"
+workspaceLocation: "/home/projector/MPSProjects/"
 
 github:
   prebuilds:
