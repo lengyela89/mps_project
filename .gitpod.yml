@@ -1,8 +1,7 @@
 image: lengyela89/mps-projector:0.0.1
 
 tasks:
-  - before: :
-    init: :
+  - name: "Starting MPS"
     command: sh /run.sh
   
 ports:
