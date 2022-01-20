@@ -1,7 +1,7 @@
 image: lengyela89/mps-projector:0.0.1
 
 tasks:
-  -command:sh /run.sh
+  - command: sh /run.sh
 
 github:
   prebuilds:
