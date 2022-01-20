@@ -2,6 +2,10 @@ image: lengyela89/mps-projector:0.0.1
 
 tasks:
   - command: sh /run.sh
+  
+ports:
+  - port: 8887
+    onOpen: open-browser
 
 github:
   prebuilds:
