@@ -5,9 +5,6 @@ tasks:
     command: sh /run.sh
   
 ports:
-  - port: 80
-    onOpen: ignore
-    visibility: private
   - port: 8887
     onOpen: open-browser
     visibility: public
