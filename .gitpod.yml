@@ -1,5 +1,8 @@
 image: lengyela89/mps-projector:0.0.1
 
+tasks:
+  -command:sh /run.sh
+
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
