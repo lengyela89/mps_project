@@ -23,7 +23,7 @@ spec:
         path: /?backgroundColor=434343&wss
   containers:
     - name: che-mps
-      image: "hub.docker.com/repository/docker/lengyela89/che-mps:2021.2.3"
+      image: "docker.io/lengyela89/che-mps:2021.2.3"
       mountSources: true
       volumes:
         - mountPath: "/home/projector-user"
