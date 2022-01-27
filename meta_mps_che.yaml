@@ -31,7 +31,7 @@ spec:
         requireSubdomain: true
   containers:
     - name: che-mps
-      image: "docker.io/lengyela89/che-mps:2021.2.3"
+      image: "host.minikube.internal:5000/che-mps:2021.2.3"
       mountSources: true
       volumes:
         - mountPath: "/home/projector-user"
