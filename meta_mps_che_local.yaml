@@ -1,0 +1,43 @@
+apiVersion: v2
+publisher: eclipse
+name: che-mps
+version: 2021.2.3
+type: Che Editor
+displayName: MPS
+title: MPS for Eclipse Che
+description: MPS running using Projector
+icon: https://resources.jetbrains.com/storage/products/intellij-idea/img/meta/intellij-idea_logo_300x300.png
+category: Editor
+repository: https://github.com/che-incubator/jetbrains-editor-images
+firstPublicationDate: "2021-06-29"
+spec:
+  endpoints:
+    - name: "mps"
+      public: true
+      targetPort: 8887
+      attributes:
+        protocol: http
+        type: ide
+        secure: true
+        cookiesAuthEnabled: true
+        path: /?backgroundColor=434343&wss
+    - name: "mps2"
+      public: true
+      targetPort: 8887
+      attributes:
+        protocol: http
+        secure: true
+        cookiesAuthEnabled: true
+        requireSubdomain: true
+  containers:
+    - name: che-mps
+      image: "host.minikube.internal:5000/che-mps:2021.2.3"
+      mountSources: true
+      volumes:
+        - mountPath: "/home/projector-user"
+          name: projector-user
+      ports:
+        - exposedPort: 8887
+      memoryLimit: 4096M
+      cpuLimit: 1500m
+      cpuRequest: 600m
