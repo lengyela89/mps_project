@@ -26,10 +26,8 @@ spec:
       targetPort: 8887
       attributes:
         protocol: http
-        type: ide
         secure: true
         cookiesAuthEnabled: true
-        path: /?backgroundColor=434343&wss
         requireSubdomain: true
   containers:
     - name: che-mps
