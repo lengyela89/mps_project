@@ -28,7 +28,7 @@ spec:
         protocol: http
         secure: true
         cookiesAuthEnabled: true
-        requireSubdomain: true
+        path: /svc2/
   containers:
     - name: che-mps
       image: "docker.io/lengyela89/che-mps:2021.2.3v2"
