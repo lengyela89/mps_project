@@ -38,6 +38,7 @@ spec:
           name: projector-user
       ports:
         - exposedPort: 8887
+        - exposedPort: 8888
       memoryLimit: 4096M
       cpuLimit: 1500m
       cpuRequest: 600m
